@@ -5,15 +5,18 @@
   margin: 2em 0 1em
 
 .more a
-  border-radius: 2px
-  border: 1.5px solid $link-color
-  padding: .4em .8em
-  transition: .2s background, .2s color
+  color: $link-color
 
 .more a:hover
-  color: #fff
-  background: $link-color
   text-decoration: inherit
+
+.more a:after
+  content: "\203A"
+  margin-left: 10px
+  transition: all 100ms ease-in-out
+
+.more a:hover:after
+  margin-left: 15px
 
 .archive
   font-size: 1.1em

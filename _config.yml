@@ -1,10 +1,12 @@
-title: "writings"
+title: "writing"
 author: "Aashish Nehete"
 description: "Made with <b style=\"color: #f45;\">&lt;3</b>"
 permalink: /:title/
 lang: "en"
 excerpt_separator: "\n\n\n"
 date_format: "%B %d, %Y"
+
+# Theme
 
 remote_theme: niklasbuschmann/contrast@v2.11
 
@@ -22,8 +24,8 @@ navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {file: "README.md"}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
-  - {title: Mail, icon: envelope, url: "mailto:niklasbuschmann@users.noreply.github.com"}
-  - {title: Github, icon: github, url: "https://github.com/niklasbuschmann/contrast"}
+  - {title: Mail, icon: envelope, url: "mailto:hello@ashnehete.in"}
+  - {title: Github, icon: github, url: "https://github.com/ashnehete"}
   - {title: Subscribe, icon: rss, url: "/feed.xml"}
 
 comments:

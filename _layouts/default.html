@@ -28,7 +28,11 @@
 {% endif %}
 
 <header>
-  <a href="{{ "/" | relative_url }}" class="title">{{ site.title | escape }}</a>
+  <span>
+    <a href="https://ashnehete.in" class="title">{{ site.author | escape }}</a>
+    <span>/</span>
+    <a href="{{ "/" | relative_url }}" class="title">{{ site.title | escape }}</a>
+  </span>
   {% include menu.html menu=pages %}
 </header>
 
