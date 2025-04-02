@@ -1,5 +1,5 @@
-title: "writing"
-author: "Aashish Nehete"
+title: "writings"
+author: "ashnehete"
 description: "Made with <b style=\"color: #f45;\">&lt;3</b>"
 permalink: /:title/
 lang: "en"
@@ -35,4 +35,3 @@ comments:
 plugins:
  - jekyll-remote-theme
  - jekyll-feed
-
